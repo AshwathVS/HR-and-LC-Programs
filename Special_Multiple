@@ -1,0 +1,32 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main()
+{
+    int test,temp,j=9,k;
+    double i = 9;
+    cin>>test;
+    for(k=0;k<test;k++)
+    {
+        cin>>temp;
+        i=9;
+        j=9;
+        while(1)
+    {
+       if(int(j)%temp == 0)
+        {
+            cout<<j<<endl;
+            break;
+        }
+        j = i*10;
+        i = j;
+        if(int(j)%temp == 0)
+        {
+            cout<<j<<endl;
+            break;
+        }
+        j+=9;
+
+    }
+    }
+}

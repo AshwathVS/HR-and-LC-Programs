@@ -1,10 +1,4 @@
-//
-//  main.cpp
-//  PracticeCodes
-//
-//  Created by Ashwath Satyanarayan on 27/03/19.
-//  Copyright © 2019 Ashwath Satyanarayan. All rights reserved.
-//
+
 
 #include <iostream>
 
